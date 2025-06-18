@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=vercel)](https://how-to-create-react-app.vercel.app/)
 
-![React Tutorial Website Screenshot](/home/ubuntu/screenshots/how_to_create_react_135641.png)
+![React Tutorial Website Screenshot](/home/ubuntu/screenshots/react.png)
 
 ## 🌟 Overview
 
