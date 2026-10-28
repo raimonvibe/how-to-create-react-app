@@ -144,7 +144,7 @@ function App() {
           <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Why Convert to React?
           </h3>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Zap className="w-12 h-12 text-yellow-500" />,
@@ -260,11 +260,11 @@ function App() {
           <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Before & After Example
           </h3>
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Before - Static HTML */}
-            <div className={`rounded-xl p-6 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
+            <div className={`min-w-0 rounded-xl p-4 sm:p-6 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
               <h4 className="text-xl font-semibold mb-4 text-red-500">❌ Static HTML</h4>
-              <pre className={`text-sm overflow-x-auto p-4 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-gray-100'}`}>
+              <pre className={`text-xs sm:text-sm overflow-x-auto p-3 sm:p-4 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-gray-100'}`}>
                 <code>{`<div class="header">
   <nav class="navbar">
     <ul>
@@ -284,9 +284,9 @@ function App() {
             </div>
 
             {/* After - React Component */}
-            <div className={`rounded-xl p-6 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
+            <div className={`min-w-0 rounded-xl p-4 sm:p-6 ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
               <h4 className="text-xl font-semibold mb-4 text-green-500">✅ React Component</h4>
-              <pre className={`text-sm overflow-x-auto p-4 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-gray-100'}`}>
+              <pre className={`text-xs sm:text-sm overflow-x-auto p-3 sm:p-4 rounded-lg ${darkMode ? 'bg-gray-900' : 'bg-gray-100'}`}>
                 <code>{`import { useState } from 'react';
 
 const Navbar = () => {

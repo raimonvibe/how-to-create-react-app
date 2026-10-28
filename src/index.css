@@ -25,3 +25,8 @@
   }
 }
 
+/* Safety net for phones: a word or URL wider than its box wraps instead of
+   overflowing it. Only kicks in when a word does not fit on a line at all. */
+body {
+  overflow-wrap: break-word;
+}
